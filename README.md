@@ -131,9 +131,9 @@ aztec start --node --archiver --sequencer \
 
 * `YOUR_RPC_URL` ➡️ RPC URL from **Step 6**.
 
-  🔸 **Sepolia:** `<RPC_URL_FROM_ANKR>`
+  🔸 **Sepolia:** `YOUR_RPC_URL`
 
-  🔸 **Sepolia BEACON:** `<RPC_URL_FROM_DRPC>`
+  🔸 **Sepolia BEACON:** `YOUR_RPC_URL`
 
 * `YOUR_PRIVATE_KEY` ➡️ Private Key (should start with `0x`).
 
@@ -181,6 +181,19 @@ aztec add-l1-validator \
   --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
   --l1-chain-id 11155111
 ```
+💬 **Explanation:**
+
+* `YOUR_RPC_URL` ➡️ RPC URL from **Step 6**.
+
+  🔸 **Sepolia:** `YOUR_RPC_URL`
+
+  🔸 **Sepolia BEACON:** `YOUR_RPC_URL`
+
+* `YOUR_PRIVATE_KEY` ➡️ Private Key (should start with `0x`).
+
+* `YOUR_EVM_ADDRESS` ➡️ Ethereum wallet address.
+
+* `YOUR_SERVER_IP` ➡️ Server IP from **Step 7**.
 
 ---
 
