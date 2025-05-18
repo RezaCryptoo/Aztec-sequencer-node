@@ -146,6 +146,7 @@ aztec start --node --archiver --sequencer \
 🔸 **To detach from screen:**
 
 * Press `Ctrl + A`, then `D`.
+
 Tip: After an hour, return and check if the node is running.
 If it's not, you can restart it by running the same run command again.
 
