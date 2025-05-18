@@ -193,8 +193,6 @@ aztec add-l1-validator \
 
   🔸 **Sepolia:** `YOUR_RPC_URL`
 
-  🔸 **Sepolia BEACON:** `YOUR_RPC_URL`
-
 * `YOUR_PRIVATE_KEY` ➡️ Private Key (should start with `0x`).
 
 * `YOUR_EVM_ADDRESS` ➡️ Ethereum wallet address.
