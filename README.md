@@ -197,7 +197,6 @@ aztec add-l1-validator \
 
 * `YOUR_EVM_ADDRESS` ➡️ Ethereum wallet address.
 
-* `YOUR_SERVER_IP` ➡️ Server IP from **Step 7**.
 
 ---
 
