@@ -52,7 +52,7 @@ bash -i <(curl -s https://install.aztec.network)
 ```bash
 echo 'export PATH=$PATH:$HOME/.aztec/bin' >> ~/.bashrc
 source ~/.bashrc
-aztec-up alpha-testnet
+aztec-up 0.85.0-alpha-testnet.9
 aztec --version
 ```
 
@@ -98,11 +98,12 @@ curl ipv4.icanhazip.com
 ### 🔹 Step 8: Firewall Configuration (Optional)
 
 ```bash
-ufw allow 22
-ufw allow ssh
-ufw allow 40400
-ufw allow 8080
-ufw enable
+sudo ufw allow 22/tcp
+sudo ufw allow ssh
+sudo ufw allow 40400/tcp
+sudo ufw allow 40400/udp
+sudo ufw allow 8080/tcp
+sudo ufw enable
 ```
 
 ---
