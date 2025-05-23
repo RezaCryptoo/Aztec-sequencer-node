@@ -52,9 +52,10 @@ bash -i <(curl -s https://install.aztec.network)
 ```bash
 echo 'export PATH=$PATH:$HOME/.aztec/bin' >> ~/.bashrc
 source ~/.bashrc
-aztec-up 0.85.0-alpha-testnet.9
+aztec-up alpha-testnet
 aztec --version
 ```
+
 
 ---
 
